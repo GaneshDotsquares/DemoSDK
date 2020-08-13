@@ -13,6 +13,7 @@
 		1F0FAE9624E599A600FEBAD1 /* Pods_DemoPod.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2F6913D7A5A53057963196A /* Pods_DemoPod.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1F0FAEBD24E5B75B00FEBAD1 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0FAEBC24E5B75B00FEBAD1 /* SVProgressHUD.framework */; };
 		1F0FAEBE24E5B75B00FEBAD1 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0FAEBC24E5B75B00FEBAD1 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1F0FAEBF24E5B7D600FEBAD1 /* DemoFramework.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1F0FAE9324E5948000FEBAD1 /* DemoFramework.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -108,6 +109,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F0FAE8D24E593ED00FEBAD1 /* DemoPod.h in Headers */,
+				1F0FAEBF24E5B7D600FEBAD1 /* DemoFramework.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
