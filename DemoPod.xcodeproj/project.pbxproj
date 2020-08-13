@@ -9,14 +9,33 @@
 /* Begin PBXBuildFile section */
 		1F0FAE8D24E593ED00FEBAD1 /* DemoPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0FAE8B24E593ED00FEBAD1 /* DemoPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F0FAE9424E5948000FEBAD1 /* DemoFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FAE9324E5948000FEBAD1 /* DemoFramework.swift */; };
-		71046EF93D048B89F78F82DA /* Pods_DemoPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F6913D7A5A53057963196A /* Pods_DemoPod.framework */; };
+		1F0FAE9524E599A600FEBAD1 /* Pods_DemoPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F6913D7A5A53057963196A /* Pods_DemoPod.framework */; };
+		1F0FAE9624E599A600FEBAD1 /* Pods_DemoPod.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2F6913D7A5A53057963196A /* Pods_DemoPod.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F0FAEBD24E5B75B00FEBAD1 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0FAEBC24E5B75B00FEBAD1 /* SVProgressHUD.framework */; };
+		1F0FAEBE24E5B75B00FEBAD1 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0FAEBC24E5B75B00FEBAD1 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F0FAE9724E599A600FEBAD1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1F0FAEBE24E5B75B00FEBAD1 /* SVProgressHUD.framework in Embed Frameworks */,
+				1F0FAE9624E599A600FEBAD1 /* Pods_DemoPod.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1F0FAE8824E593ED00FEBAD1 /* DemoPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DemoPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0FAE8B24E593ED00FEBAD1 /* DemoPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoPod.h; sourceTree = "<group>"; };
 		1F0FAE8C24E593ED00FEBAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F0FAE9324E5948000FEBAD1 /* DemoFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFramework.swift; sourceTree = "<group>"; };
+		1F0FAEBC24E5B75B00FEBAD1 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4C3F601BACFE4B1F00C4E0 /* Pods-DemoPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPod.release.xcconfig"; path = "Target Support Files/Pods-DemoPod/Pods-DemoPod.release.xcconfig"; sourceTree = "<group>"; };
 		A2F6913D7A5A53057963196A /* Pods_DemoPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE60D6E7273A2FA8E477F7B7 /* Pods-DemoPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPod.debug.xcconfig"; path = "Target Support Files/Pods-DemoPod/Pods-DemoPod.debug.xcconfig"; sourceTree = "<group>"; };
@@ -27,7 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71046EF93D048B89F78F82DA /* Pods_DemoPod.framework in Frameworks */,
+				1F0FAEBD24E5B75B00FEBAD1 /* SVProgressHUD.framework in Frameworks */,
+				1F0FAE9524E599A600FEBAD1 /* Pods_DemoPod.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +85,7 @@
 		8AF6478896989C906F7BBBC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F0FAEBC24E5B75B00FEBAD1 /* SVProgressHUD.framework */,
 				A2F6913D7A5A53057963196A /* Pods_DemoPod.framework */,
 			);
 			name = Frameworks;
@@ -102,6 +123,7 @@
 				1F0FAE8424E593ED00FEBAD1 /* Sources */,
 				1F0FAE8524E593ED00FEBAD1 /* Frameworks */,
 				1F0FAE8624E593ED00FEBAD1 /* Resources */,
+				1F0FAE9724E599A600FEBAD1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -243,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -300,7 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

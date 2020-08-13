@@ -9,16 +9,16 @@ Pod::Spec.new do |spec|
 
   spec.name         = "DemoPod"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of DemoPod"
-  spec.description  = "A complete description of DemoPod"
+  spec.summary      = "A short description of DemoPod. The following radars have some effect on the current implementation of"
+  spec.description  = "A complete description of DemoPod, you can use easily The following radars have some effect on the current implementation ofThe following radars have some effect on the current implementation ofThe following radars have some effect on the current implementation ofThe following radars have some effect on the current implementation ofThe following radars have some effect on the current implementation ofThe following radars have some effect on the current implementation ofThe following radars have some effect on the current implementation ofThe following radars have some effect on the current implementation of"
 
   spec.platform     = :ios, "11.1"
 
-  spec.homepage     = "http://EXAMPLE/MyFramework"
+  spec.homepage     = "https://github.com/GaneshDotsquares/DemoSDK.git"
   spec.license      = "MIT"
   spec.author             = { "Ganesh Gupta" => "ganesh.gupta@dotsquares.com" }
-  spec.source = { :path => "." }
-  spec.source_files  = "UPQSDK/**/*.{swift}"
+  spec.source = { :git => "https://github.com/GaneshDotsquares/DemoSDK.git", :tag => "1.0.0"}  
+ spec.source_files  = "DemoPod"
  #spec.exclude_files = "Classes/*.{h,m,swift}"
   spec.swift_version = "4.2" 
  spec.dependency 'SVProgressHUD'
