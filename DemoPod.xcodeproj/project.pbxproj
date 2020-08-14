@@ -14,8 +14,10 @@
 		1F0FAEBD24E5B75B00FEBAD1 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0FAEBC24E5B75B00FEBAD1 /* SVProgressHUD.framework */; };
 		1F0FAEBE24E5B75B00FEBAD1 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0FAEBC24E5B75B00FEBAD1 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F0FAEBF24E5B7D600FEBAD1 /* DemoFramework.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1F0FAE9324E5948000FEBAD1 /* DemoFramework.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FBFFAD824E64B8600C8F7B5 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBFFAD724E64B8600C8F7B5 /* SocketIO.framework */; };
-		1FBFFADA24E64B8600C8F7B5 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBFFAD924E64B8600C8F7B5 /* Starscream.framework */; };
+		1FBFFADC24E64C3900C8F7B5 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBFFADB24E64C3900C8F7B5 /* SocketIO.framework */; };
+		1FBFFADD24E64C3900C8F7B5 /* SocketIO.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBFFADB24E64C3900C8F7B5 /* SocketIO.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1FBFFADF24E64C3D00C8F7B5 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBFFADE24E64C3D00C8F7B5 /* Starscream.framework */; };
+		1FBFFAE024E64C3D00C8F7B5 /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBFFADE24E64C3D00C8F7B5 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				1FBFFADD24E64C3900C8F7B5 /* SocketIO.framework in Embed Frameworks */,
+				1FBFFAE024E64C3D00C8F7B5 /* Starscream.framework in Embed Frameworks */,
 				1F0FAEBE24E5B75B00FEBAD1 /* SVProgressHUD.framework in Embed Frameworks */,
 				1F0FAE9624E599A600FEBAD1 /* Pods_DemoPod.framework in Embed Frameworks */,
 			);
@@ -41,6 +45,8 @@
 		1F0FAEBC24E5B75B00FEBAD1 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBFFAD724E64B8600C8F7B5 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBFFAD924E64B8600C8F7B5 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBFFADB24E64C3900C8F7B5 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBFFADE24E64C3D00C8F7B5 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4C3F601BACFE4B1F00C4E0 /* Pods-DemoPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPod.release.xcconfig"; path = "Target Support Files/Pods-DemoPod/Pods-DemoPod.release.xcconfig"; sourceTree = "<group>"; };
 		A2F6913D7A5A53057963196A /* Pods_DemoPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE60D6E7273A2FA8E477F7B7 /* Pods-DemoPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPod.debug.xcconfig"; path = "Target Support Files/Pods-DemoPod/Pods-DemoPod.debug.xcconfig"; sourceTree = "<group>"; };
@@ -51,8 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FBFFAD824E64B8600C8F7B5 /* SocketIO.framework in Frameworks */,
-				1FBFFADA24E64B8600C8F7B5 /* Starscream.framework in Frameworks */,
+				1FBFFADC24E64C3900C8F7B5 /* SocketIO.framework in Frameworks */,
+				1FBFFADF24E64C3D00C8F7B5 /* Starscream.framework in Frameworks */,
 				1F0FAEBD24E5B75B00FEBAD1 /* SVProgressHUD.framework in Frameworks */,
 				1F0FAE9524E599A600FEBAD1 /* Pods_DemoPod.framework in Frameworks */,
 			);
@@ -92,6 +98,8 @@
 		8AF6478896989C906F7BBBC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1FBFFADE24E64C3D00C8F7B5 /* Starscream.framework */,
+				1FBFFADB24E64C3900C8F7B5 /* SocketIO.framework */,
 				1FBFFAD724E64B8600C8F7B5 /* SocketIO.framework */,
 				1FBFFAD924E64B8600C8F7B5 /* Starscream.framework */,
 				1F0FAEBC24E5B75B00FEBAD1 /* SVProgressHUD.framework */,
