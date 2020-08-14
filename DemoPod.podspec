@@ -22,5 +22,5 @@ Pod::Spec.new do |spec|
  #spec.exclude_files = "Classes/*.{h,m,swift}"
   spec.swift_version = "4.2" 
  spec.dependency 'SVProgressHUD'
-
+spec.dependency 'Socket.IO-Client-Swift', '~> 14.0'
 end
