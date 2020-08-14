@@ -7,4 +7,6 @@ target 'DemoPod' do
 
   # Pods for DemoPod
 pod 'SVProgressHUD'
+#pod 'googleapis', :path => '.'
+pod 'Socket.IO-Client-Swift', '~> 14.0'
 end

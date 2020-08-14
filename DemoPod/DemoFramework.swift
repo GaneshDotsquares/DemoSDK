@@ -7,7 +7,8 @@
 //
 
 import Foundation
-
+import SocketIO
+import SVProgressHUD
 public class Hello{
     
     static func helloPrint(){
