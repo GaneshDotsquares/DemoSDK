@@ -11,7 +11,7 @@ import SocketIO
 import SVProgressHUD
 public class Hello{
     
-    static func helloPrint(){
+  public  static func helloPrint(){
         print("Hello beby whats up......")
     }
 }
